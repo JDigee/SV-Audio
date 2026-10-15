@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "SV Audio Showcase"
+description = "A responsive product showcase for SV Audio Pvt (Ltd), helping customers in Sri Lanka browse professional audio and lighting equipment, find branch details, and contact the team through WhatsApp."
+version = "1.0.0"
+id = "artifacts/sv-audio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23252
+
+[services.development]
+run = "pnpm --filter @workspace/sv-audio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/sv-audio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/sv-audio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23252"
+BASE_PATH = "/"
