@@ -6,19 +6,13 @@ export const contactPhones = [
   { display: "077 121 5009", tel: "+94771215009" },
 ];
 export const offer = { enabled: true, text: "LUCKY DRAW / LATEST OFFER", detail: "Ask our team about this month's special deals." };
-export const categories = ["All", "Power Amplifiers", "Wireless Microphones", "Conference / Gooseneck Mics", "Mixers", "Speakers", "Audio Distributors", "Lighting"];
-export const brands = ["Sennheiser", "Shure", "Finox", "Philips", "Freepower", "TK Audio", "Carol", "MPower"];
+export const categories = ["All", "Power Amplifiers", "Wireless Microphones", "Conference / Gooseneck Mics", "Mixers", "Speakers", "Headphones", "Audio Distributors", "Lighting"];
+export const brands = ["Sennheiser", "Shure", "Finox", "Philips", "Freepower", "TK Audio", "Carol", "MPower", "AKG", "Samson"];
 export const products = [
-  { id: "mw4000", brand: "MPower", name: "MW4000", description: "4-Channel Professional Amplifier", category: "Power Amplifiers" },
-  { id: "mw4000ec", brand: "MPower", name: "MW4000EC", description: "Professional Power Amplifier", category: "Power Amplifiers" },
-  { id: "s4000", brand: "Finox", name: "S4000+", description: "Power Amplifier", category: "Power Amplifiers" },
-  { id: "s600s", brand: "Finox", name: "S600S", description: "Audio Distributor", category: "Audio Distributors" },
-  { id: "sennheiser-wireless", brand: "Sennheiser", name: "Wireless Microphone Set", description: "Clear, dependable wireless sound", category: "Wireless Microphones" },
-  { id: "shure-wireless", brand: "Shure", name: "Wireless Microphone", description: "Reliable wireless performance", category: "Wireless Microphones" },
-  { id: "philips-gooseneck", brand: "Philips", name: "Gooseneck Conference Microphone", description: "A clear voice for every seat", category: "Conference / Gooseneck Mics", price: "From Rs. 3,500" },
-  { id: "freepower-desk", brand: "Freepower", name: "Gooseneck Desk Microphone", description: "Flexible desktop conference mic", category: "Conference / Gooseneck Mics" },
-  { id: "tk-gooseneck", brand: "TK Audio", name: "Gooseneck Microphone", description: "Focused speech for meetings and events", category: "Conference / Gooseneck Mics" },
-  { id: "carol-gooseneck", brand: "Carol", name: "Gooseneck Microphone", description: "Dependable conference audio", category: "Conference / Gooseneck Mics" },
+  { id: "rack-amp", brand: "SV Audio", name: "Professional Rackmount Power Amplifier", description: "High-power rackmount amplifier for live sound and installed systems", category: "Power Amplifiers", image: "/images/Products/Professional Rackmount Power Amplifier.png" },
+  { id: "mixer-dsp", brand: "SV Audio", name: "4-Channel Mixer with DSP", description: "Compact mixer with built-in DSP effects and packaging included", category: "Mixers", image: "/images/Products/4-Channel Mixer with DSP and Packaging.png" },
+  { id: "akg-k72", brand: "AKG", name: "K72 Studio Headphones", description: "Closed-back over-ear studio monitoring headphones", category: "Headphones", image: "/images/Products/AKG K72 Studio Headphones on White.png" },
+  { id: "samson-sr950", brand: "Samson", name: "SR950 Studio Headphones", description: "Open-back reference headphones for mixing and mastering", category: "Headphones", image: "/images/Products/Samson SR950 Studio Headphones.png" },
 ];
 export const branches = [
   { name: "Jaffna", address: "Address details coming soon", phones: ["077 121 5007", "077 121 5008"], hours: "Please contact us for opening hours", map: "https://maps.google.com/?q=SV+Audio+Jaffna" },

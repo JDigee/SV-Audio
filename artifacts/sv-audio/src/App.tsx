@@ -3,7 +3,7 @@ import { animate, motion, useInView, useMotionValue, useReducedMotion, useTransf
 import { ArrowDown, ArrowDownRight, ArrowRight, ArrowUp, AudioLines, Check, Disc3, Headphones, MapPin, Menu, MessageCircle, Mic2, MoveUpRight, Phone, Radio, Send, ShieldCheck, SlidersHorizontal, Sparkles, Volume2, X, Zap } from "lucide-react";
 import { branches, brands, categories, contactPhones, offer, phone, products, social, whatsappDisplay } from "./data/siteData";
 
-const logo = "/images/sv-audio-logo.jpg";
+const logo = "/images/sv-audio-logo.png";
 const wa = (message = "Hello SV Audio!") => `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 const links = [["Home", "#home"], ["About", "#about"], ["Products", "#products"], ["Branches", "#branches"], ["Contact", "#contact"]];
 
